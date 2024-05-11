@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>MayaLink</title>
+     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootnavbar.css">
+    
+<style>
+ /* css code */
+  
+  body {
+    background-image: url(./assets/img/atitlan_1024x768.jpg);
+        background-repeat: repeat;
+        background-size:cover;
+       }
+
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+   }
+  
+  .cards-header{
+  color:aliceblue;
+}
+   
+.gradient-background {
+    /* background: linear-gradient(135deg,#78C1F3, #9BE8D8); (from color palette) */
+    background: linear-gradient(45deg,#74d7ff, #c8f444);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+
+.vertical-center {
+  margin: auto;
+}       
+       
+.center {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dbe4ed; /* Border color is optional */  
+}
+  
+
+/*   .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  } */
+
+</style>
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #0d3562;">
+    <div class="container-fluid">
+         <a class="navbar-brand" href="https://mayalink.org">
+              <img style="margin-left: 20px; height: 100px" src="./assets/svg/logo-oval_white-border.svg" alt="Logo" height="35" class="d-inline-block align-text-top">
+              MayaLink
+         </a>
+        
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="https://mayalink.org">mayalink.org</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://dash.mayalink.org">Clases en Línea</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Opciones</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://mayalink.org">mayalink.org</a></li>
+              <li><a class="dropdown-item" href="https://dash.mayalink.org/">Clases en Línea</a></li>
+              <li><a class="dropdown-item" href="https://miportal.mayalink.org/educativo.html">Recursos Educativos</a></li>
+              <ul>
+                <li><a class="dropdown-item" href="https://dash.mayalink.org">Clases en Línea</a></li>
+                <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Enciclopedia Libre</a></li>
+                <li><a class="dropdown-item" href="https://aprendomates.com/">Matemática</a></li>
+                <li><a class="dropdown-item" href="https://clubextra.org">Club Extra</a></li>
+                <li><a class="dropdown-item" href="https://mentores2024.mayalink.org/">Mentores</a></li>
+                <li><a class="dropdown-item" href="http://educalab.es/RECURSOS">Educalab -España</a></li>
+                <li><a class="dropdown-item" href="https://medlineplus.gov/spanish/">Información de Salud</a></li>
+              </ul>
+              <li><a class="dropdown-item" href="https://miportal.mayalink.org/cristiano.html">Contenido Cristiano</a></li>
+                <ul>
+                  <li><a class="dropdown-item" href="https://abriendolabiblia.org">Abriendo La Biblia</a></li>
+                  <li><a class="dropdown-item" href="https://abriendolabiblia.org/videos-rec/">Videos Cristianos</a></li>
+                  <li><a class="dropdown-item" href="https://bix.mayalink.org">Bixobal en Línea</a></li>
+                </ul>
+                <li><a class="dropdown-item" href="https://miportal.mayalink.org/instrucciones.html">Instrucciones</a></li>
+                  <ul>
+                    <li><a class="dropdown-item" href="./instrucciones_Antenas_Wi-Fi.html">Antenna Wi-Fi</a></li>
+                    <li><a class="dropdown-item" href="./instrucciones_MayaAlumno.html">Dispositivos MayaAlumno</a></li>
+                  </ul>
+               </ul>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>  
+  <main>
+
+    
+ <!-- Navigation Cards -->
+  <section id="my-cards">
+  <div class="container">
+
+    <div class="cards-header mx-auto text-center">
+      <h1>Sitio MayaLink version html</h2>
+      <p>para desarrollar el sitio mayalink usando código html y css</p>
+    </div>     
+        
+    <div class="row row-cols-1 row-cols-xl-4 mb-3 text-center">
+
+      <div class="col">
+        <div class="card rounded-4 shadow-sm mb-4" style="background-color: #F8FDCF;">
+          <div class="card-header">
+            <h5 class="card-title">Recursos Educativos</h5>
+          </div>
+          <img src="./assets/svg/Education.svg" class="card-img-top" alt="Graphico con opciones educativos" style="height: 350px;">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="background-color:#F8FDCF;"><a href="https://miportal.mayalink.org/educativo.html" class="btn btn-primary">Recursos Educativos</a></li>
+            </ul>
+          <p class="card-text" style="height: 75px";>Explora los recursos educativos disponibles</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded-4 shadow-sm mb-4" style="background-color: #F8FDCF;">
+          <div class="card-header">
+            <h5 class="card-title">Contenido Cristiano</h5>
+          </div>
+          <img src="./assets/svg/cristiano.svg" class="card-img-top" alt="Instructions Graphic" style="height: 350px;">
+          <div class="card-body"">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="background-color:#F8FDCF;"><a href="https://miportal.mayalink.org/cristiano.html" class="btn btn-primary">Contenido Cristiano</a></li>
+            </ul>
+          <p class="card-text" style="height: 75px;">Recursos bíblicos, himnos y videos cristianos.</p>
+          </div>
+        </div>
+      </div>       
+
+      <div class="col">
+        <div class="card rounded-4 shadow-sm mb-4" style="background-color: #F8FDCF;">
+          <div class="card-header">
+            <h5 class="card-title">Instrucciones</h5>
+          </div>
+          <img src="./assets/svg/instructions-on_phone.svg" class="card-img-top" alt="Instructions Graphic" style="height: 350px;">
+          <div class="card-body"">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="background-color:#F8FDCF;"><a href="https://miportal.mayalink.org/instrucciones.html" class="btn btn-primary">Instrucciones</a></li>
+            </ul>
+          <p class="card-text" style="height: 75px;">Instrucciones de uso para Antenas Wi-Fi MayaLink y Dispositivos MayaAlumno</p>
+          </div>
+        </div>
+      </div>       
+
+      <div class="col">
+        <div class="card rounded-4 shadow-sm mb-4" style="background-color: #F8FDCF;">
+          <div class="card-header">
+            <h5 class="card-title">Los Feriados (Holidays)</h5>
+          </div>
+          <img src="./assets/img/feriados-alpha.png" class="card-img-top" alt="Graphico de fiesta" style="height: 350px;">
+          <div class="card-body"">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="background-color:#F8FDCF;"><a href="https://mayalink.org/los-feriados/" class="btn btn-primary">Los Feriados</a></li>
+            </ul>
+          <p class="card-text" style="height: 75px;"">Materiales para celebrar los feriados</p>
+          </div>
+        </div>
+      </div>     
+
+    </div>
+
+    
+</main>
+</body>
+ 
+
+    <!-- <div id="slider" class="gradient-background" style=" width: auto"> -->
+    <div id="slider" style=" width: auto; background-color: rgba(0, 0, 0, 0.555)">  
+    
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/User-Picture.png" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h5>First slide label</h5>
+            <p class="text-danger" >Some representative placeholder content for the first slide.</p> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/img/Children-with-MAYA-768x576.jpg" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+
+       <div class="carousel-item">
+          <img src="./assets/img/Tagline+background.png" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/svg/WiFi-Tower-Icon+background.svg" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+            
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/img/RockPi+background.png" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+           
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assets/img/maya-raspberry+background.png" class="d-block rounded-5" alt="..." style="width: auto; height: 300px;">
+          <div class="carousel-caption d-none d-md-block">
+           
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+ 
+
+
+</section>
+ 
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+
+ 
+</html>
